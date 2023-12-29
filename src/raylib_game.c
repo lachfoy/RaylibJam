@@ -127,6 +127,8 @@ void UpdateDrawFrame(void)
         // TODO: Draw your game screen here
         DrawRectangle(10, 10, screenWidth - 20, screenHeight - 20, SKYBLUE);
         
+        DrawText("Hello TEST", 100, 100, 100, WHITE);
+
     EndTextureMode();
     
     // Render to screen (main framebuffer)
